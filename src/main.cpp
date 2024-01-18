@@ -15,8 +15,8 @@
 
 #define SYSLED 2
 
-#define SECRET_SACN_UUID "CAC0C271-DEAD-BEEF-CAFE-69CC04C6C816"
-#define SECRET_SACN_RECV "239.255.0.13" // your sACM receiver's IP address
+#define SECRET_SACN_UUID "CAC0C2005-DEAD-BEEF-CAFE-69CC04C6C816"
+#define SECRET_SACN_RECV "239.255.0.15" // your sACM receiver's IP address
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
